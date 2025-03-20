@@ -2,7 +2,7 @@ import React from 'react';
 import Link from "next/link";
 import {FaXTwitter} from "react-icons/fa6";
 import {HiHome} from "react-icons/hi";
-import {SignedIn, SignedOut, SignInButton, SignOutButton} from "@clerk/nextjs";
+import {SignedIn, SignedOut, SignOutButton} from "@clerk/nextjs";
 
 const LeftSidebar = () => {
     return (
